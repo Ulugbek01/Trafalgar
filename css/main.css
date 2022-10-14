@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1220px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  padding: 10px 0;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+.header__logo-text {
+  margin-left: 12px;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #233348;
+  mix-blend-mode: normal;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 41px;
+  height: 41px;
+  background: #458FF6;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: 700;
+  font-size: 26px;
+}
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+.header__menu-item {
+  padding: 0 20px;
+}
+.header__menu-link {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000;
+  opacity: 0.5;
+}
+.header__menu-link.active {
+  color: #000;
+  opacity: 1;
+}
+
+/*# sourceMappingURL=main.css.map */

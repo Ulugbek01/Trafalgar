@@ -1,0 +1,62 @@
+@use '../abstract/variables';
+
+.header {
+    padding: 10px 0;
+
+    & .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo-text {
+        margin-left: 12px;
+        font-family: 'Mulish', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        color: #233348;
+        mix-blend-mode: normal;
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 41px;
+        height: 41px;
+        background: #458FF6;
+        border-radius: 50%;
+        color: variables.$text-white-color;
+        font-weight: 700;
+        font-size: 26px;
+    }
+
+    &__menu {
+        display: flex;
+        align-items: center;
+    }
+
+    &__menu-item {
+        padding: 0 20px;
+    }
+
+    &__menu-link {
+        font-family: 'Mulish', sans-serif;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 23px;
+        color: variables.$primary-text-color;
+        opacity: 0.5;
+
+        &.active {
+            color: variables.$primary-text-color;
+        }
+    }
+}

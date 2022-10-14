@@ -1,0 +1,8 @@
+@use '../abstract/variables';
+
+.container {
+    max-width: variables.$width;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
